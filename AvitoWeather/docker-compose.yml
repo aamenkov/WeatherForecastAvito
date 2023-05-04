@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  weather:
+    build:
+      context: .
+      dockerfile: AvitoWeather/Dockerfile
+    ports:
+      - "5000:80"
